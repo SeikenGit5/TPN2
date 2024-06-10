@@ -1,0 +1,113 @@
+/* App.css */
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+nav {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem ;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul:first-of-type {
+  margin-right: auto;
+}
+
+nav ul li {
+  margin-right: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #2d4157;
+}
+
+nav ul li.li-clima {
+  font-size: 1.5rem;
+}
+
+input[type="search"] {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.5rem 1rem;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 50px;
+}
+
+input :hover{
+  color: #2d4157;
+
+}
+article {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  margin-top: 2rem;
+ 
+}
+
+ul{
+
+  margin-right: 100PX;
+}
+.p-nombre {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.icono img {
+  width: 400px;
+  height: 400px; 
+  background-color: rgb(196, 225, 231);
+}
+
+.p-temperatura, .p-min-max, .p-humedad {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.p-temperatura {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007BFF;
+}
